@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-eslint-comments",
-  "version": "3.2.0-lineaje-01",
+  "version": "5.33.0-lineaje-01",
   "description": "Additional ESLint rules for ESLint directive comments.",
   "engines": {
     "node": ">=6.5.0"
@@ -85,5 +85,11 @@
     "url": "https://github.com/mysticatea/eslint-plugin-eslint-comments/issues"
   },
   "homepage": "https://github.com/mysticatea/eslint-plugin-eslint-comments#readme",
-  "funding": "https://github.com/sponsors/mysticatea"
+  "funding": "https://github.com/sponsors/mysticatea",
+  "overrides": {
+    "path-to-regexp": ">=0.2.5"
+  },
+  "resolutions": {
+    "path-to-regexp": ">=0.2.5"
+  }
 }
